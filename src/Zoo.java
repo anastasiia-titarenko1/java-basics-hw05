@@ -27,7 +27,7 @@ public class Zoo {
     bird.checkWings();
     // TODO add a bird to the list and print it
     list.add(bird);
-    //System.out.println(list); //так????
+    System.out.println(list);
 
   }
 

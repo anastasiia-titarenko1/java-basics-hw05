@@ -11,6 +11,9 @@ public class Zoo {
     // TODO fix method declaration
     System.out.println("Feeding birds");
     // TODO feed birds in the cycle
+    for (Object bird: list)
+      Bird.eat();
+
 
   }
 

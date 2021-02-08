@@ -7,13 +7,12 @@ public class Zoo {
    *
    * @param list list of birds of particular type.
    */
-  public static void feed(List list) {
+  public static void feed(List <? extends Bird>  list) {
     // TODO fix method declaration
     System.out.println("Feeding birds");
     // TODO feed birds in the cycle
     for (Object bird: list)
       Bird.eat();
-
 
   }
 
